@@ -18,6 +18,7 @@ serde_json = "1.0.115"
 serde_with = "3.7.0"
 sqlx = { version = "0.8.1", features = [
     "postgres",
+    "sqlite",
     "runtime-tokio",
     "tls-rustls",
 ] }

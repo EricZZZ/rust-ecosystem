@@ -1,0 +1,10 @@
+## 测试生成shorten url
+POST  http://localhost:8080/
+Content-Type: application/json
+
+{
+    "url":"https://medium.com/@r.das699/an-example-of-connecting-to-a-sqlite-database-using-rust-cdeb363a277a"
+}
+
+### 测试获取原始url
+GET http://127.0.0.1:8080/7V-yE8
